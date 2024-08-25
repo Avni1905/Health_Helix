@@ -204,7 +204,7 @@ export const AppointmentForm = ({
             control={form.control}
             name="cancellationReason"
             label="Reason for cancellation"
-            placeholder="Urgent meeting came up"
+            placeholder="Give reason for cancellation"
           />
         )}
 
