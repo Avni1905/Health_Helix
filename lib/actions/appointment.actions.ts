@@ -120,7 +120,6 @@ export const sendSMSNotification = async (userId: string, content: string) => {
 export const updateAppointment = async ({
   appointmentId,
   userId,
-  timeZone,
   appointment,
   type,
 }: UpdateAppointmentParams) => {
@@ -135,11 +134,9 @@ export const updateAppointment = async ({
 
     if (!updatedAppointment) throw Error;
 
-    const smsMessage = `Greetings from Health Helix. ${type === "schedule" ? `Your appointment is confirmed for ${formatDateTime(appointment.schedule!, 
-        timeZone
+    const smsMessage = `Greetings from Health Helix. ${type === "schedule" ? `Your appointment is confirmed for ${formatDateTime(appointment.schedule!
 
-    ).dateTime} with Dr. ${appointment.primaryPhysician}` : `We regret to inform that your appointment for ${formatDateTime(appointment.schedule!,
-     timeZone
+    ).dateTime} with Dr. ${appointment.primaryPhysician}` : `We regret to inform that your appointment for ${formatDateTime(appointment.schedule!
      ).dateTime} is cancelled. Reason:  ${appointment.cancellationReason}`}.`;
     await sendSMSNotification(userId, smsMessage);
 
