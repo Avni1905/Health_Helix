@@ -46,36 +46,36 @@ export const Doctors = [
     name: "Hardik Sharma",
   },
   {
-    image: "/assets/images/dr-sharma.svg",
-    name: "Bhavna Sharma",
+    image: "/assets/images/dr-bhavna.svg",
+    name: "Bhavna Malik",
   },
   {
     image: "/assets/images/dr-sharma.svg",
-    name: "Deepak Sharma",
+    name: "Deepak Rastogi",
   },
   {
     image: "/assets/images/dr-sharma.svg",
-    name: "Harsh Sharma",
+    name: "Harsh Dogra",
   },
   {
     image: "/assets/images/dr-sharma.svg",
-    name: "Karan Sharma",
+    name: "Gunjan Verma",
   },
   {
     image: "/assets/images/dr-sharma.svg",
-    name: "Rashi Sharma",
+    name: "Rushil Dhingra",
   },
   {
     image: "/assets/images/dr-sharma.svg",
-    name: "Anjali Sharma",
+    name: "Anjali Jain",
   },
   {
     image: "/assets/images/dr-sharma.svg",
-    name: "Daya Sharma",
+    name: "Tanmay Kapoor",
   },
   {
     image: "/assets/images/dr-sharma.svg",
-    name: "Jetha Sharma",
+    name: "venkatesh Iyer",
   },
 ];
 

@@ -29,7 +29,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
       </section>
 
       <Image
-        src="/assets/images/appointment-img.svg"
+        src="/assets/images/appointment-img.png"
         height={1500}
         width={1500}
         alt="appointment"
