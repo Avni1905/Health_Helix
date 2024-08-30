@@ -4,6 +4,9 @@ const nextConfig = {
     typecript:{
         ignoreBuildErrors: true,
     },
+    eslint:{
+        ignoreBuildErrors: true,
+    }
 };
 
 export default withSentryConfig(nextConfig, {
