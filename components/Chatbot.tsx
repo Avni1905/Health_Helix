@@ -1,8 +1,7 @@
 "use client";
-
 import { useEffect } from 'react';
 
-const BotpressChat = () => {
+const Chatbot = () => {
   useEffect(() => {
     const botScript1 = document.createElement('script');
     botScript1.src = 'https://cdn.botpress.cloud/webchat/v2.2/inject.js';
@@ -24,4 +23,4 @@ const BotpressChat = () => {
   return null;
 };
 
-export default BotpressChat;
+export default Chatbot;
