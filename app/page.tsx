@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import { PatientForm } from "@/components/forms/PatientForm";
 import { PasskeyModal } from "@/components/PasskeyModal";
+import Chatbot from "@/components/Chatbot";
 
 const Home = ({ searchParams }: SearchParamProps) => {
   const isAdmin = searchParams?.admin === "true";
@@ -41,6 +41,8 @@ const Home = ({ searchParams }: SearchParamProps) => {
         alt="patient"
         className="side-img max-w-[50%]"
       />
+
+      <Chatbot />
     </div>
   );
 };

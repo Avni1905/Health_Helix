@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 
 import { RegisterForm } from "@/components/forms/RegisterForm";
 import { getPatient, getUser } from "@/lib/actions/patient.actions";
-
+import Chatbot from "@/components/Chatbot";
 const Register = async ({ params: { userId } }: SearchParamProps) => {
   const user = await getUser(userId);
   const patient = await getPatient(userId);
@@ -35,6 +35,7 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
         alt="patient"
         className="side-img max-w-[390px]"
       />
+      <Chatbot />
     </div>
   );
 };

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { AppointmentForm } from "@/components/forms/AppointmentForm";
 import { getPatient } from "@/lib/actions/patient.actions";
-
+import Chatbot from "@/components/Chatbot";
 const Appointment = async ({ params: { userId } }: SearchParamProps) => {
   const patient = await getPatient(userId);
 
@@ -35,6 +35,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
         alt="appointment"
         className="side-img h-[100vh] max-w-[390px] bg-bottom"
       />
+      <Chatbot />
     </div>
   );
 };
