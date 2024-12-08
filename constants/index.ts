@@ -42,40 +42,44 @@ export const IdentificationTypes = [
 
 export const Doctors = [
   {
-    image: "/assets/images/dr-sharma.svg",
-    name: "Hardik Sharma",
+    image: "/assets/images/dr-tuli.svg",
+    name: "Avantika Tuli",
   },
   {
-    image: "/assets/images/dr-bhavna.svg",
-    name: "Bhavna Malik",
+    image: "/assets/images/dr-puneet.svg",
+    name: "Puneet Batra",
   },
   {
-    image: "/assets/images/dr-deepak.svg",
-    name: "Deepak Rastogi",
+    image: "/assets/images/dr-abhita.svg",
+    name: "Abhita Malhotra",
   },
   {
-    image: "/assets/images/dr-harsh.svg",
-    name: "Harsh Dogra",
+    image: "/assets/images/dr-dax.svg",
+    name: "Dax Abraham",
   },
   {
-    image: "/assets/images/dr-gunjan.svg",
-    name: "Gunjan Verma",
+    image: "/assets/images/dr-carrolene.svg",
+    name: "Carrolene Langpoklakpam",
   },
   {
-    image: "/assets/images/dr-rushil.svg",
-    name: "Rushil Dhingra",
+    image: "/assets/images/dr-anand.svg",
+    name: "Kumar Rakshak Anand",
   },
   {
-    image: "/assets/images/dr-anjali.svg",
-    name: "Anjali Jain",
+    image: "/assets/images/dr-sana.svg",
+    name: "Sana Bint Aziz",
   },
   {
-    image: "/assets/images/dr-tanmay.svg",
-    name: "Tanmay Kapoor",
+    image: "/assets/images/dr-ashish.svg",
+    name: "Ashish Kumar Singh",
   },
   {
-    image: "/assets/images/dr-iyer.svg",
-    name: "venkatesh Iyer",
+    image: "/assets/images/dr-anu.svg",
+    name: "Anu Singla ",
+  },
+  {
+    image: "/assets/images/dr-garima.svg",
+    name: "Garima",
   },
 ];
 
