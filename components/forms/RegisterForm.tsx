@@ -228,8 +228,8 @@ export const RegisterForm = ({ user }: { user: User} ) => {
             fieldType={FormFieldType.SELECT}
             control={form.control}
             name="primaryPhysician"
-            label="Primary care physician"
-            placeholder="Select a physician"
+            label="Primary care dentist"
+            placeholder="Select a doctor"
           >
             {Doctors.map((doctor, i) => (
               <SelectItem key={doctor.name + i} value={doctor.name}>
